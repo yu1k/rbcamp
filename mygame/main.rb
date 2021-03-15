@@ -4,6 +4,8 @@ Window.width = 800
 Window.height = 600
 
 image = Image.load("./images/player.png")
+# 色指定
+image.set_color_key([255, 255, 255])
 
 Window.loop do
     # 1秒間に60回繰り返す
